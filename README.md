@@ -16,5 +16,6 @@ for Mi Router 4AG support
 
 ## Instructions:
 - clone this repo next to the gluon repo 
-- after cloning site-repo and `make update`
-- from the gluon directory execute `../patches/apply_all_patches.sh`
+- after cloning site-repo and `make update` in the gluon repo ...
+- execute `../patches/apply_all_patches.sh` from inside the gluon directory
+
