@@ -13,3 +13,8 @@ for Mi Router 4AG support
 - Respondd hopglass fix
 - Xiaomi Mi Router 4a Gigabit Edition support 
 
+
+## Instructions:
+- clone this repo next to the gluon repo 
+- after cloning site-repo and `make update`
+- from the gluon directory execute `../patches/apply_all_patches.sh`
