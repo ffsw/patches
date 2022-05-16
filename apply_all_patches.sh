@@ -1,3 +1,6 @@
+#!/bin/bash
+echo $PWD
+
 #FFSW Firmware patches
 # Ausfuehren aus dem gluon Dir !
 echo "--------------------------------------------------"
