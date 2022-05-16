@@ -1,0 +1,12 @@
+diff --git a/targets/ar71xx-generic b/targets/ar71xx-generic
+index df7dbd9..e329526 100644
+--- a/targets/ar71xx-generic
++++ b/targets/ar71xx-generic
+@@ -181,7 +181,7 @@ device('netgear-wndrmac', 'wndrmac', {
+ device('netgear-wnr2200', 'wnr2200', {
+ 	profile = 'WNR2200',
+ 	factory_ext = '.img',
+-	broken = true, -- untested
++	broken = false, --ts: set to false; untested
+ })
+

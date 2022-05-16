@@ -1,0 +1,14 @@
+diff --git a/contrib/sign.sh b/contrib/sign.sh
+index d88bc34..904a2fb 100755
+--- a/contrib/sign.sh
++++ b/contrib/sign.sh
+@@ -35,7 +35,8 @@ awk 'BEGIN    { sep=0 }
+                 else       print > "'"$lower"'"}' \
+     "$manifest"
+ 
+-ecdsasign "$upper" < "$SECRET" >> "$lower"
++#ecdsasign "$upper" < "$SECRET" >> "$lower"
++ecdsautil sign "$upper" < "$SECRET" >> "$lower"
+ 
+ (
+ 	cat  "$upper"
