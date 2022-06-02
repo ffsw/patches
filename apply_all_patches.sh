@@ -12,7 +12,8 @@ echo "--------------------------------------------------"
 #ecdsasign
 echo "--------------------------------------------------"
 echo ecdsasign
-git apply ../patches/ecdsasign_replace.patch
+echo "(wird übersprungen, da nicht mehr benötigt"
+#git apply ../patches/ecdsasign_replace.patch
 
 echo "--------------------------------------------------"
 echo Archer C25v1
