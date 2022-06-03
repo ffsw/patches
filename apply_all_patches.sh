@@ -8,11 +8,15 @@ echo Apply FFSW firmware patches
 echo "--------------------------------------------------"
 
 
+#ecdsasign
+echo "--------------------------------------------------"
+echo respondd hopglass
+git apply ../patches/respondd_hopglass.patch
 
 #ecdsasign
 echo "--------------------------------------------------"
 echo ecdsasign
-echo "(wird übersprungen, da nicht mehr benötigt"
+echo "(wird uebersprungen, da nicht mehr benoetigt)"
 #git apply ../patches/ecdsasign_replace.patch
 
 echo "--------------------------------------------------"
