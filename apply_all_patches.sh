@@ -8,7 +8,7 @@ echo Apply FFSW firmware patches
 echo "--------------------------------------------------"
 
 
-#ecdsasign
+#respondd
 echo "--------------------------------------------------"
 echo respondd hopglass
 git apply ../patches/respondd_hopglass.patch
