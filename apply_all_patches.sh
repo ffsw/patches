@@ -35,7 +35,8 @@ cd ..
 
 echo "--------------------------------------------------"
 echo MI Router 4a Gigabit Edition
-pushd ../gluon ; ../patches/add-mi-router-4a-gigabit.sh; popd # adding Xiaomi -mi-router-4a-gigabit edition
+echo "(wird uebersprungen, da in gluon 2022 nicht mehr benoetigt)"
+#pushd ../gluon ; ../patches/add-mi-router-4a-gigabit.sh; popd # adding Xiaomi -mi-router-4a-gigabit edition
 
 echo "--------------------------------------------------"
 echo finished
