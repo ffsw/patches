@@ -1,7 +1,7 @@
-diff --git a/targets/ar71xx-generic b/targets/ar71xx-generic
+diff --git a/targets/ar71xx-generic b/targets/ath79-generic
 index df7dbd9..fe30d3b 100644
---- a/targets/ar71xx-generic
-+++ b/targets/ar71xx-generic
+--- a/targets/ath79-generic
++++ b/targets/ath79-generic
 @@ -355,7 +355,7 @@ device('tp-link-archer-c7-v5', 'archer-c7-v5', {
  
  device('tp-link-archer-c25-v1', 'archer-c25-v1', {
