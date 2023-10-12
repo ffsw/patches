@@ -25,7 +25,8 @@ git apply ../patches/archer_C25v1_not_broken.patch
 
 echo "--------------------------------------------------"
 echo Netgear WNR2200
-git apply ../patches/netgear_wnr2200_not_broken.patch
+echo "(wird uebersprungen, da nicht mehr benoetigt)"
+#git apply ../patches/netgear_wnr2200_not_broken.patch
 
 echo "--------------------------------------------------"
 echo Futro
