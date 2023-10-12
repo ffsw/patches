@@ -24,8 +24,8 @@ echo Archer C25v1
 git apply ../patches/archer_C25v1_not_broken.patch
 
 echo "--------------------------------------------------"
-echo Netgear WNR2220
-git apply ../patches/netgear_wnr2220_not_broken.patch
+echo Netgear WNR2200
+git apply ../patches/netgear_wnr2200_not_broken.patch
 
 echo "--------------------------------------------------"
 echo Futro
