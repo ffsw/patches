@@ -10,3 +10,4 @@ index 7a5140c9..5fa528b8 100644
 +       broken = false, -- TS: false - OOM with 5GHz enabled in most environments
         class = 'tiny', -- 64M ath9k + ath10k
  })
+ 
