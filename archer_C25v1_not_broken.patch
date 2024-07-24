@@ -10,3 +10,5 @@ index 5e16b65f..75d49132 100644
 +       broken = false, -- OOM with 5GHz enabled in most environments
         class = 'tiny', -- 64M ath9k + ath10k
  })
+
+ 
