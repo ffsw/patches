@@ -1,13 +1,12 @@
 diff --git a/targets/ath79-generic b/targets/ath79-generic
-index 7a5140c9..1a83abd3 100644
+index 5e16b65f..75d49132 100644
 --- a/targets/ath79-generic
 +++ b/targets/ath79-generic
-@@ -428,7 +428,7 @@ device('tp-link-archer-c25-v1', 'tplink_archer-c25-v1', {
+@@ -428,7 +428,7 @@ device('tp-link-archer-c2-v3', 'tplink_archer-c2-v3', {
 
  device('tp-link-archer-c25-v1', 'tplink_archer-c25-v1', {
         packages = ATH10K_PACKAGES_SMALLBUFFERS_QCA9887,
 -       broken = true, -- OOM with 5GHz enabled in most environments
-+       broken = false, -- ts: false; OOM with 5GHz enabled in most environments
++       broken = false, -- OOM with 5GHz enabled in most environments
         class = 'tiny', -- 64M ath9k + ath10k
  })
-
