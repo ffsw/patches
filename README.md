@@ -2,11 +2,11 @@
 
 ## Patches
 - Archer C25v1 as not broken
-- Netgear WNR2220 as not broken
+- Netgear WNR2220 as not broken (wird uebersprungen, da nicht mehr benoetigt)
 - Futro CF card support
-- ecdsasign replace
+- ecdsasign replace (wird uebersprungen, da nicht mehr benoetigt)
 - Respondd hopglass fix
-- Xiaomi Mi Router 4a Gigabit Edition support (forked and splitted from https://github.com/eulenfunk/firmware/tree/v2021.x)
+- Xiaomi Mi Router 4a Gigabit Edition support (wird uebersprungen, da nicht mehr benoetigt)
 
 
 ## Instructions:
