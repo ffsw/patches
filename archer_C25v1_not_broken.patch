@@ -1,15 +1,24 @@
+From 73ede8b9cd11e868f53e340d47fc3142f0275a1c Mon Sep 17 00:00:00 2001
+Date: Mon, 7 Oct 2024 10:48:10 +0200
+Subject: [PATCH] c25
+
+---
+ targets/ath79-generic | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/targets/ath79-generic b/targets/ath79-generic
 index 093a9757..921cc9b4 100644
 --- a/targets/ath79-generic
 +++ b/targets/ath79-generic
 @@ -434,7 +434,7 @@ device('tp-link-archer-c2-v3', 'tplink_archer-c2-v3', {
-
- device('tp-link-archer-c25-v1', 'tplink_archer-c25-v1', {
-        packages = ATH10K_PACKAGES_SMALLBUFFERS_QCA9887,
--       broken = true, -- OOM with 5GHz enabled in most environments
-+       broken = false, -- OOM with 5GHz enabled in most environments
-        class = 'tiny', -- 64M ath9k + ath10k
- })
-
-
  
+ device('tp-link-archer-c25-v1', 'tplink_archer-c25-v1', {
+ 	packages = ATH10K_PACKAGES_SMALLBUFFERS_QCA9887,
+-	broken = true, -- OOM with 5GHz enabled in most environments
++	broken = false, -- OOM with 5GHz enabled in most environments
+ 	class = 'tiny', -- 64M ath9k + ath10k
+ })
+ 
+-- 
+2.30.2
+
